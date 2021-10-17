@@ -6,8 +6,12 @@
   
   <body>
     <div class="book_item">
-      <h5 class="subtitle1">Title</h4>
-      <h5 class="subtitle2">Body</h4>
+      <% @blogs.each do |blog| %>
+        <h5 class="subtitle1">Title</h4>
+        <h5 class="subtitle2">Body</h4>
+        <p class ="book_title"><%= @book.title %></p>
+        <p class="book_body"><%= @book.body %></p>
+      <% end %>
     </div>
     
     <div class="new_book">

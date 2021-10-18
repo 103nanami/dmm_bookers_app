@@ -20,11 +20,16 @@
   color: #6c6b6b;
 }
 
+/*booksページの記述*/
 header {
 }
 
 header>h1{
   padding:20px 0 0 20px;
+}
+
+.book_item{
+  margin-left:20px;
 }
 
 .book_item h5{
@@ -39,8 +44,31 @@ header>h1{
   padding:0 200px;
 }
 
-.book_item{
+.book_index{
   margin-left:20px;
+  display: inline-block;
+}
+
+.book_title{
+  display: inline-block;
+  width:200px;
+  font-size: 12px;
+}
+
+.book_body{
+  display: inline-block;
+  width: 400px;
+  font-size: 12px;
+}
+
+.book_link{
+  display: inline-block;
+}
+
+.book_link a{
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 10px;
 }
 
 .new_book{
@@ -68,3 +96,60 @@ header>h1{
   background-color: #e5e5e5;
 }
 
+
+
+/*Editページの記述*/
+.edit_date{
+  margin-left: 20px;
+}
+
+.edit_title{
+  font-size: 12px;
+}
+
+.edit_body{
+  font-size: 12px;
+}
+
+.edit_button{
+  display: block;
+  margin:10px 20px;
+}
+
+.edit_link a{
+  display:inline-block;
+  font-size: 12px;
+}
+
+.edit_link p{
+  display:inline-block;
+  font-size: 12px;
+}
+
+.edit_link{
+  margin-left: 20px;
+}
+
+
+/*showページの記述*/
+.show_subtitle{
+  padding-left: 50px;
+}
+
+.show_subtitle h5{
+  padding-top: 30px
+}
+
+.show_link a{
+  display:inline-block;
+  font-size: 12px;
+}
+
+.show_link p{
+  display:inline-block;
+  font-size: 12px;
+}
+
+.show_link{
+  margin:30px 0 0 20px;
+}

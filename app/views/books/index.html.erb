@@ -33,9 +33,7 @@
       <h2>New book</h2>
       
       <% if @book.errors.any? %>
-      　<div class="main_error">
           <%= @book.errors.count %>error prohibited this book from being saved:
-        </div>
         <% @book.errors.full_messages.each do |message| %>
           <%= message %>
         <% end %>

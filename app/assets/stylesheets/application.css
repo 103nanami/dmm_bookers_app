@@ -21,6 +21,13 @@
 }
 
 /*booksページの記述*/
+
+#notice{
+  font-size:15px;
+  color: green;
+  padding:20px 0 0 50px;
+}
+
 header {
 }
 

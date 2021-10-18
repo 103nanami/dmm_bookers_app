@@ -1,4 +1,10 @@
 <html>
+  
+   <% if flash[:notice] %>
+     <p id="notice">
+       <%= flash[:notice] %>
+     </p>
+   <% end %>
 
   <header>
     <h1>Books</h1>
@@ -22,7 +28,7 @@
         <div class="book_link">
           <%= link_to "Show",book_path(book) %>
           <%= link_to 'Edit', edit_book_path(book) %>
-          <%= link_to "Destroy", book_path(book), method: :delete %>
+          <%= link_to "Destroy", book_path(book), method: :delete, data: { confirm: 'Are you sure？'}, class: "btn btn-lg btn-primary" %>
         </div>
         
       </div>

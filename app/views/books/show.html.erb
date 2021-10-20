@@ -1,4 +1,9 @@
-
+<% if flash[:notice] %>
+  <p id="notice">
+    <%= flash[:notice] %>
+  </p>
+<% end %>
+   
 <div class="show_subtitle">
   <h5>Title:<%= @book.title %></h5>
   <h5>Body:<%= @book.body %></h5>

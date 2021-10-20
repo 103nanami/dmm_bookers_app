@@ -101,6 +101,7 @@ header>h1{
   line-height: 25px;
   padding-left: 20px;
   margin-bottom: 20px;
+  color:white;
 }
 
 .error_list{
@@ -143,6 +144,10 @@ label {
 
 
 /*Editページの記述*/
+.error_box{
+  margin-left: 20px
+}
+
 .edit_date{
   margin-left: 20px;
 }
